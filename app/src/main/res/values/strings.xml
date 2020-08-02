@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="movie_title">Movie title</string>
+    <string name="release">Release Date :</string>
+    <string name="release_date">Month, Day, Year</string>
+    <string name="title_desc">Description</string>
+    <string name="movie_desc">Ini adalah deskripsi dari film</string>
+
+    <string-array name="data_name">
+        <item>A Star Is Born</item>
+        <item>Avenger Infinity</item>
+        <item>Aquaman</item>
+        <item>Creed</item>
+        <item>Bohemian</item>
+        <item>Bumblebee</item>
+        <item>Mortal Engines</item>
+        <item>Robin Hood</item>
+        <item>The Hidden World</item>
+        <item>Venom</item>
+    </string-array>
+    <string-array name="data_release">
+        <item>October 3, 2018</item>
+        <item>April 25, 2018</item>
+        <item>December 7, 2018</item>
+        <item>November 21, 2018</item>
+        <item>October 24, 2018</item>
+        <item>December 15, 2018</item>
+        <item>November 27, 2018</item>
+        <item>November 20, 2018</item>
+        <item>January 3, 2019</item>
+        <item>September 28, 2018</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Seasoned musician Jackson Maine discovers and falls in love with struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Allys career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one movieList to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orms half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his familys past, Adonis Creed is up against the challenge of his life.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercurys increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Many thousands of years in the future, Earths cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
+        <item>A war-hardened Crusader and his Moorish commander mount an audacious revolt against the corrupt English crown.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccups reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+</resources>

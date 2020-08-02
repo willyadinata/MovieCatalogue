@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.was.dicoding.made.moviecatalogue.MovieDetailActivity">
+
+    <ImageView
+        android:id="@+id/img_photo_movie"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="27dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_movie_title"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/img_photo_movie"
+        android:text="@string/movie_title"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_movie"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/tv_release"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_movie_title"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/img_photo_movie"
+        android:text="@string/release"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_movie"
+        app:layout_constraintTop_toBottomOf="@+id/tv_movie_title" />
+
+
+    <TextView
+        android:id="@+id/tv_release_date"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_release"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/img_photo_movie"
+        android:text="@string/release_date"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_movie"
+        app:layout_constraintTop_toBottomOf="@+id/tv_movie_title" />
+
+    <TextView
+        android:id="@+id/tv_title_desc"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_photo_movie"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_desc"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/img_photo_movie"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/tv_movie_desc"
+        android:layout_width="391dp"
+        android:layout_height="222dp"
+        android:layout_below="@+id/tv_title_desc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/movie_desc"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_desc"
+        tools:layout_editor_absoluteX="20dp" />
+
+</RelativeLayout>
